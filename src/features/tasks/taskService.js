@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API_URL = 'http://localhost:8000/api/tasks/';
+const API_URL = 'https://task-manager-server1-2.onrender.com/api/tasks/';
 
 // const createTask = async (taskData) => {
 //     try {
