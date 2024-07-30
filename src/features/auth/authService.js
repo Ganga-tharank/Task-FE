@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/users/';
+const API_URL = 'https://task-manager-server1-2.onrender.com/api/users/';
 
 const registerUser = async (userData) => {
     const response = await axios.post(API_URL + 'register', userData);
